@@ -1,0 +1,19 @@
+body {
+	width: 600px;
+	margin: auto;
+	color: #3D3838;
+	font-family: sans-serif;
+	font-weight: 100;
+	line-height: 21px;
+	background-color: #eee;
+}
+h2 {
+	padding: 10px;
+	text-transform: capitalize;
+	background-color:#fff;
+	border-bottom:solid 3px #ccc;
+}
+p {
+	font-size:14px;
+	text-align: justify;
+}

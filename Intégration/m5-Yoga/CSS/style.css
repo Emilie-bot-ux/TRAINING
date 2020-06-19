@@ -1,0 +1,142 @@
+@font-face{
+    font-family: "Kaushan";
+    src: url('../font/KaushanScript-Regular.ttf');
+    }
+@font-face{
+    font-family: "Playfair";
+    src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+}
+header{
+    font-size: 2em;
+    font: "Kaushan";
+    color: white;
+    text-decoration: none;
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+    background-position:center;
+    margin: 0 auto;
+    text-align: center;
+    max-width:none;
+    min-height:540px;
+    }
+.fa {
+    display:block;
+
+}
+.links {
+    display: inline-block;
+    vertical-align: top;
+    width:23%;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+.bienvenue{
+    font-family: "Kaushan";
+    text-shadow: 1px 1px 2px black;
+}
+.contentbox1 {
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
+    min-height:150px;
+}
+.contentbox2 {
+    background-image: url('../img/background2.jpg');
+    background-size: cover;
+    box-sizing: content-box;
+    background-position:center;
+    width: 100%;
+}
+header a{
+   text-decoration: none;
+   color: white;
+   font-family: "Kaushan";
+   }
+
+main {
+    font-family: "Playfair";
+    font-size: 1em;
+}
+h2 {
+    text-align:center;
+    font-size:1.5em;
+    font-weight:100;
+}
+hr{
+    max-width:90%;
+    color: #e7dbe7;
+    clear: top;
+    clear: left;
+}
+article p{
+    text-align: left;
+    float:clear;
+    }
+article{
+    padding: 3em 2em 3em 2em;
+    background-color:white;
+    float: clear;
+}
+.cours img{
+    float:left;
+    padding-right: 2em;
+}
+.posture img{
+    float:right;
+    padding-left: 2em;
+}
+.cours, .posture{
+    color: #4f5869;
+}
+.info, .map, footer{
+    background-image: url('../img/background_section.jpg');
+    background-size:cover;
+    background-position: bottom;
+    }
+.info{
+        margin-top:3em;
+    }
+.info img {
+  width: 60%;
+  height: auto;
+}
+.box1{
+    box-sizing: content-box;
+    width: 27%;
+    padding: 2em;
+}
+.box2{
+    box-sizing: content-box;
+    width: 27%;
+    padding: 2em;
+}
+.box3{
+    box-sizing: content-box;
+    width: 27%;
+    padding: 2em;
+}
+#inline{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight:100;
+    float: clear;
+}
+iframe{
+    width:100%;
+    height: 300px;
+}
+footer img{
+    width: 35px;
+    height: auto;
+}
+footer{
+    font-family: "Playfair";
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    padding-top:1em;
+}

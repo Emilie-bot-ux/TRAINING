@@ -1,0 +1,155 @@
+@font-face{
+    font-family: "Kaushan";
+    src: url('../font/KaushanScript-Regular.ttf');
+    }
+@font-face{
+    font-family: "Playfair";
+    src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+}
+body{
+    background-color: white;
+}
+header{
+    font-size: 2em;
+    font: "Kaushan";
+    color: white;
+    text-decoration: none;
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+    background-position:center;
+    margin: 0 auto;
+    text-align: center;
+    max-width:none;
+    min-height:540px;
+    }
+.fa {
+    display:block;
+
+}
+.links {
+    display: inline-block;
+    vertical-align: top;
+    width:23%;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+.bienvenue{
+    font-family: "Kaushan";
+    text-shadow: 1px 1px 2px black;
+}
+.contentbox1 {
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+    box-sizing: content-box;
+    width: 100%;
+    min-height:150px;
+}
+.contentbox2 {
+    background-image: url('../img/background2.jpg');
+    background-size: cover;
+    box-sizing: content-box;
+    background-position:center;
+    width: 100%;
+}
+header a{
+   text-decoration: none;
+   color: white;
+   font-family: "Kaushan";
+   }
+
+main {
+    font-family: "Playfair";
+    font-size: 1em;
+}
+h2 {
+    text-align:center;
+    font-size:1.5em;
+    font-weight:100;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    text-align:center;
+}
+table, th, td{
+    border: 1px solid #cbcbcb;
+    border-collapse: collapse;
+    }
+td{
+    padding: 0.5em;
+}
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  font-size: 1em;
+  }
+table a{
+    color: #8561bb;
+    text-decoration: none;
+}
+article th{
+    font-size: 1.6em;
+    font-family: "Kaushan";
+    color: white;
+    background-image: url('../img/background_section.jpg');
+    background-size: cover;
+    background-position:top;
+    text-align: left;
+    padding:0.5em;
+    
+}
+.date{
+    text-align: left;
+}
+.table2{
+    padding-top: 1em;
+}
+h3{
+    text-align:left;
+    font-weight:100;
+    padding-left:0.5em;
+    padding-top: -0.5;
+}
+form{
+    text-align:center;
+    padding-bottom:1em;
+    margin: 2em;
+    font-size:1em;
+    }
+label{
+    padding-left: 1em;
+}
+.input{
+    border: none;
+    border-bottom:1px solid #cbcbcb ;
+}
+select{
+    width:90%;
+    background-color:#f2f2f2;
+    padding: 0.5em;
+}
+button{
+    display:block;
+    text-align:center;
+    color:white;
+    background-color:#8b76d1;
+    padding: 0.5em 1em 0.5em 1em;
+    margin:auto;
+    
+}
+footer img{
+    width: 80px;
+    height: auto;
+}
+footer{
+    background-color:#8b76d1;
+    background-size:cover;
+    background-position: bottom;
+    font-family: "Playfair";
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    margin-top:2em;
+    padding-top:0.5em;
+}
